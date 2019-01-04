@@ -62,6 +62,7 @@
     text-align: center;
     color: red;
 }
-.nav-color > mat-tab-header > div > div > div > mat-ink-bar{
+
+::ng-deep .nav-color .mat-ink-bar  {
     background-color:red !important;
 }
