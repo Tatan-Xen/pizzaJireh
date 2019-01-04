@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { MatDialog } from '@angular/material';
+import { Component, OnInit, Inject } from '@angular/core';
+import { MatDialog, MAT_DIALOG_DATA } from '@angular/material';
 
 export interface Food {
   value: string;
@@ -22,3 +22,11 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 }
+
+// @Component({
+//   selector: 'app-dialog-product',
+//   templateUrl: '../modals/product.html',
+// })
+// export class DialogProduct{
+//   constructor(@Inject(MAT_DIALOG_DATA) public data: DialogData)
+// }
