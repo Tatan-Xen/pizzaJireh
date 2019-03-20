@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html{
+    font-family: 'Segoe UI';
+}
+
+body{
+    margin: 0%;
+    background-image: url('assets/img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.text-title, h1, h2, h3, h4{
+    color: red;
+    font-weight: unset;
+}
+
+.icon-add{
+    background-image: url('assets/img/addToList.png');
+    background-size: 2em;
+    background-repeat: no-repeat;
+    background-position: left 10px top 10px;
+}
+
+.menu-top{
+    margin-top: 4em;
+}
